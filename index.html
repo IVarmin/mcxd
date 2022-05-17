@@ -3,96 +3,101 @@
     <head>
         <meta charset="UTF-8">
         <title>Antoha MC</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <table cellspacing="15">
-            <tr>
-                <td>
-                    <img src="https://cdn.bhdw.net/im/spirit-blossom-vayne-league-of-legends-lol-shpalery-72630_w635.jpg" width="300" alt="Тут вызывается гусь">
-                </td>
-                <td>
+        <div class="container">
+            <div class="info">
+                <img src="https://cdna.artstation.com/p/assets/images/images/028/413/822/large/laura-lopez-spirit-blossom-vayne-laura.jpg?1594397135"  alt="Тут вызывается гусь" class="avatar">
+                
+                <div class="info-text">
                     <h1>Миненко Антон</h1>
                     <p><em>Я юрист, который работает на государство</em></p>
                     <p>Хочу обучиться программированию, по тому что <strong>Супру хочу</strong></p>         
-                </td>
-            </tr>
-        </table>
+                
+                    <h4>Мои социальные сети</h4>
+                        <a href="https://osu.ppy.sh/users/8228537" target="_blank">Instagram</a>
+                        |
+                        <a href="https://euw.op.gg/summoners/euw/2318m49" target="_blank">Twitter</a>
+                        |
+                        <a href="https://youtu.be/RgKAFK5djSk" target="_blank">Telegram</a>
+                    <p id="hate">Хейчу Тик-ток</p>
+                </div>
+            </div>
 
-            <hr>
+            <div class="card bg-yellow">
+                <h2>Мои хобби</h2>
+                <ol type="a" class="list">
+                    <li>Тильтую в Лиге говна</li>
+                    <li>Играю в ОСУ!</li>
+                    <li>Езда на машине</li>
+                    <li>Шарю в кроссах и шмотках</li>
+                    <li>Ловлю карасиков в речке</li>
+                </ol>
+            </div>
 
-            <h2>Мои социальные сети</h2>
-            <ul type="square">
-                <li><a href="" target="_blank">Instagram</a></li>
-                <li><a href="" target="_blank">Twitter</a></li>
-                <li><a href="" target="_blank">Telegram</a></li>
-            </ul>
-            <p>Хейчу Тик-ток</p>
-
-            <hr>
-
-            <h2>Мои хобби</h2>
-            <ol type="a">
-                <li>Тильтую в Лиге говна</li>
-                <li>Играю в ОСУ!</li>
-                <li>Езда на машине</li>
-                <li>Шарю в кроссах и шмотках</li>
-                <li>Ловлю карасиков в речке</li>
-            </ol>
-            
-            <hr>
-
-            <h2>Опыт Работы</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>1</th>
-                        <th>2</th>  
-                    </tr>
-                </thead>
-                <tbody>
+            <div class="card bg-green">
+                <h2>Опыт Работы</h2>
+                <table class="table">
                     <tr>
                         <td>Место раблоты</td>
                         <td>ДВС</td>
+                        <td>ПУМЮ</td>
                     </tr>
                     <tr>
                         <td>Должность</td>
                         <td>Державний виконавець</td>
+                        <td>3 месяца</td>
                     </tr>
                     <tr>
                         <td>Чем занимался?</td>
                         <td>Кошмарил 53-ю колонию взысками на миллионы для Облэнерго</td>
-                    </tr>
-                </tbody>
-                <tfoot> </tfoot>   
-            </table>
-
-            <hr>
+                        <td>Та да, дохрена</td>
+                    </tr> 
+                </table>
+            </div>
             
-            <h2>Слава Україні!</h2>
-            <a href="Gs.html">Героям слава!</a>
+            <div class="card bg-red">
+                <h2>Слава Україні!</h2>
+                <ul class="link-list">
+                    <li><a href="https://www.youtube.com/watch?v=qCxoT_dDmpc&ab_channel=TartwithaBomb">Героям слава!</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=69itK7m57oc&ab_channel=MotoNation">Слава нації!</a></li>
+                </ul>
+            </div>
 
-            <hr>
+            <div class="supra">
+                <div class="card">
+                    <h2>Супр в Украине нет, так что купим в Европе</h2>
+                    
+                    <form action="/">
+                        <div class="row">
+                            <div class="by-supra">
+                                <label for="number">Пердложения по цене:</label>
+                                <input type="number" id="number" placeholder="До 40к, бо я с жить хочу">
+                            </div>
 
-            <h2>Супр в Украине нет, так что купим в Европе</h2>
-            <form action="/">
-                <label for="name">Пердложения по цене:</label>
-                <input type="number" id="name" placeholder="До 40к, бо я с жить хочу">
-                
-                <br>
+                            <div class="by-supra">
+                                <label for="https">Сслыка на продажу:</label>
+                                <input type="https" id="https" placeholder="Битые тоже пойдут">
+                            </div>
+                        </div>
+                        
+                        <div class="by-supra">
+                            <label for="mass">Ваше сообщение:</label>
+                            <br>
+                            <textarea name="" id="mass" cols="30" rows="5"></textarea>
+                        </div> 
+                        
+                        <input class="btn" type="submit" value="Продать вашу красотку">
 
-                <label for="email">Сслыка на продажу:</label>
-                <input type="email" id="email" placeholder="Битые тоже пойдут">
-                
-                <br>
-                
-                <label for="mass">Ваше сообщение:</label>
-                <br>
-                <textarea name="" id="mass" cols="30" rows="5"></textarea>
-               
-                <br>
-
-                <input type="submit" value="Продать вашу красотку">
-            </form>
-
+                        <div class="position">
+                            <div class="box">
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
